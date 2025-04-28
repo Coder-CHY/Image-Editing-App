@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6B1CC1752D4B666F008746DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1CC1562D4B666E008746DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1CC15D2D4B666E008746DB;
+			remoteInfo = "Image Editing App_";
+		};
+		6B1CC17F2D4B666F008746DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1CC1562D4B666E008746DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1CC15D2D4B666E008746DB;
+			remoteInfo = "Image Editing App_";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B1CC15E2D4B666E008746DB /* Image Editing App_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Editing App_.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1CC1742D4B666F008746DB /* Image Editing App_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Editing App_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1CC17E2D4B666F008746DB /* Image Editing App_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Editing App_UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B1CC1862D4B666F008746DB /* Exceptions for "Image Editing App_" folder in "Image Editing App_" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6B1CC15D2D4B666E008746DB /* Image Editing App_ */;
+		};
+		6BB7F6832D64CECE009025E4 /* Exceptions for "Image Editing App_" folder in "Image Editing App_Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"EditedImages 9 copy 1.mlmodel",
+				"EditedImages 15.mlmodel",
+			);
+			target = 6B1CC1732D4B666F008746DB /* Image Editing App_Tests */;
+		};
+		6BB7F6842D64CECE009025E4 /* Exceptions for "Image Editing App_" folder in "Image Editing App_UITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"EditedImages 9 copy 1.mlmodel",
+				"EditedImages 15.mlmodel",
+			);
+			target = 6B1CC17D2D4B666F008746DB /* Image Editing App_UITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B1CC1602D4B666E008746DB /* Image Editing App_ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6B1CC1862D4B666F008746DB /* Exceptions for "Image Editing App_" folder in "Image Editing App_" target */,
+				6BB7F6832D64CECE009025E4 /* Exceptions for "Image Editing App_" folder in "Image Editing App_Tests" target */,
+				6BB7F6842D64CECE009025E4 /* Exceptions for "Image Editing App_" folder in "Image Editing App_UITests" target */,
+			);
+			path = "Image Editing App_";
+			sourceTree = "<group>";
+		};
+		6B1CC1772D4B666F008746DB /* Image Editing App_Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Image Editing App_Tests";
+			sourceTree = "<group>";
+		};
+		6B1CC1812D4B666F008746DB /* Image Editing App_UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Image Editing App_UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1CC15B2D4B666E008746DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC1712D4B666F008746DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC17B2D4B666F008746DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1CC1552D4B666E008746DB = {
+			isa = PBXGroup;
+			children = (
+				6B1CC1602D4B666E008746DB /* Image Editing App_ */,
+				6B1CC1772D4B666F008746DB /* Image Editing App_Tests */,
+				6B1CC1812D4B666F008746DB /* Image Editing App_UITests */,
+				6B1CC15F2D4B666E008746DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1CC15F2D4B666E008746DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CC15E2D4B666E008746DB /* Image Editing App_.app */,
+				6B1CC1742D4B666F008746DB /* Image Editing App_Tests.xctest */,
+				6B1CC17E2D4B666F008746DB /* Image Editing App_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1CC15D2D4B666E008746DB /* Image Editing App_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1CC1872D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_" */;
+			buildPhases = (
+				6B1CC15A2D4B666E008746DB /* Sources */,
+				6B1CC15B2D4B666E008746DB /* Frameworks */,
+				6B1CC15C2D4B666E008746DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B1CC1602D4B666E008746DB /* Image Editing App_ */,
+			);
+			name = "Image Editing App_";
+			packageProductDependencies = (
+			);
+			productName = "Image Editing App_";
+			productReference = 6B1CC15E2D4B666E008746DB /* Image Editing App_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B1CC1732D4B666F008746DB /* Image Editing App_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1CC18C2D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_Tests" */;
+			buildPhases = (
+				6B1CC1702D4B666F008746DB /* Sources */,
+				6B1CC1712D4B666F008746DB /* Frameworks */,
+				6B1CC1722D4B666F008746DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1CC1762D4B666F008746DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B1CC1772D4B666F008746DB /* Image Editing App_Tests */,
+			);
+			name = "Image Editing App_Tests";
+			packageProductDependencies = (
+			);
+			productName = "Image Editing App_Tests";
+			productReference = 6B1CC1742D4B666F008746DB /* Image Editing App_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B1CC17D2D4B666F008746DB /* Image Editing App_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1CC18F2D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_UITests" */;
+			buildPhases = (
+				6B1CC17A2D4B666F008746DB /* Sources */,
+				6B1CC17B2D4B666F008746DB /* Frameworks */,
+				6B1CC17C2D4B666F008746DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1CC1802D4B666F008746DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B1CC1812D4B666F008746DB /* Image Editing App_UITests */,
+			);
+			name = "Image Editing App_UITests";
+			packageProductDependencies = (
+			);
+			productName = "Image Editing App_UITests";
+			productReference = 6B1CC17E2D4B666F008746DB /* Image Editing App_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1CC1562D4B666E008746DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6B1CC15D2D4B666E008746DB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6B1CC1732D4B666F008746DB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6B1CC15D2D4B666E008746DB;
+					};
+					6B1CC17D2D4B666F008746DB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6B1CC15D2D4B666E008746DB;
+					};
+				};
+			};
+			buildConfigurationList = 6B1CC1592D4B666E008746DB /* Build configuration list for PBXProject "Image Editing App_" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B1CC1552D4B666E008746DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B1CC15F2D4B666E008746DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1CC15D2D4B666E008746DB /* Image Editing App_ */,
+				6B1CC1732D4B666F008746DB /* Image Editing App_Tests */,
+				6B1CC17D2D4B666F008746DB /* Image Editing App_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1CC15C2D4B666E008746DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC1722D4B666F008746DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC17C2D4B666F008746DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1CC15A2D4B666E008746DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC1702D4B666F008746DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CC17A2D4B666F008746DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B1CC1762D4B666F008746DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1CC15D2D4B666E008746DB /* Image Editing App_ */;
+			targetProxy = 6B1CC1752D4B666F008746DB /* PBXContainerItemProxy */;
+		};
+		6B1CC1802D4B666F008746DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1CC15D2D4B666E008746DB /* Image Editing App_ */;
+			targetProxy = 6B1CC17F2D4B666F008746DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B1CC1882D4B666F008746DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image Editing App_/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B1CC1892D4B666F008746DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image Editing App_/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B1CC18A2D4B666F008746DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B1CC18B2D4B666F008746DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1CC18D2D4B666F008746DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Editing App_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Image Editing App_";
+			};
+			name = Debug;
+		};
+		6B1CC18E2D4B666F008746DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Editing App_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Image Editing App_";
+			};
+			name = Release;
+		};
+		6B1CC1902D4B666F008746DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image Editing App_";
+			};
+			name = Debug;
+		};
+		6B1CC1912D4B666F008746DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.Image-Editing-App-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Image Editing App_";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1CC1592D4B666E008746DB /* Build configuration list for PBXProject "Image Editing App_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1CC18A2D4B666F008746DB /* Debug */,
+				6B1CC18B2D4B666F008746DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1CC1872D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1CC1882D4B666F008746DB /* Debug */,
+				6B1CC1892D4B666F008746DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1CC18C2D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1CC18D2D4B666F008746DB /* Debug */,
+				6B1CC18E2D4B666F008746DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1CC18F2D4B666F008746DB /* Build configuration list for PBXNativeTarget "Image Editing App_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1CC1902D4B666F008746DB /* Debug */,
+				6B1CC1912D4B666F008746DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1CC1562D4B666E008746DB /* Project object */;
+}

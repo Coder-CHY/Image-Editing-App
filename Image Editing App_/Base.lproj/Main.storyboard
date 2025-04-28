@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Image_Editing_App_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olq-lv-R8A">
+                                <rect key="frame" x="323" y="79" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Te5-xx-cKg"/>
+                                    <constraint firstAttribute="height" constant="50" id="Z85-Pp-XDf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addButtonTappedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ueW-jr-WcI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BPn-wa-uFT">
+                                <rect key="frame" x="0.0" y="149" width="393" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="mft-la-WsO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.13725490196078433" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BPn-wa-uFT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6YH-LV-QAt"/>
+                            <constraint firstItem="BPn-wa-uFT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CvX-7o-3Zl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Olq-lv-R8A" secondAttribute="trailing" constant="20" id="NYd-IV-j7A"/>
+                            <constraint firstItem="Olq-lv-R8A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="W0r-ou-K2j"/>
+                            <constraint firstItem="BPn-wa-uFT" firstAttribute="top" secondItem="Olq-lv-R8A" secondAttribute="bottom" constant="20" id="vyw-2F-O6y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="Olq-lv-R8A" id="6nm-Gt-ruL"/>
+                        <outlet property="imageView" destination="BPn-wa-uFT" id="P7P-wv-4EL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1402" y="-244"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
